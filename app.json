@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "La Billetera",
+    "slug": "labilletera",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "labilletera",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.labilletera.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.labilletera.app"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ]
+  }
+}
