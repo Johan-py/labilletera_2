@@ -14,8 +14,7 @@ import type {
   QrMyInfo,
 } from '../types'
 
-const API_BASE = 'http://localhost:8000'
-
+const API_BASE = 'https://la-billetera-api.onrender.com'
 class ApiClient {
   private _token: string | null = null
 
