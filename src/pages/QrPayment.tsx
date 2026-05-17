@@ -267,7 +267,7 @@ function PagarTab({ setWallet }: { setWallet: (w: any) => void }) {
       const res = await api.payQrPayment(scannedId)
       setResult({
         success: true,
-        message: `Pago exitoso de Bs {res.transaction.amount.toLocaleString('es-CL', { minimumFractionDigits: 2 })} a ${res.to_user}`,
+        message: `Pago exitoso de Bs ${res.transaction.amount.toLocaleString('es-CL', { minimumFractionDigits: 2 })} a ${res.to_user}`,
       })
       setWallet({ balance: res.new_balance } as any)
     } catch (err: any) {
